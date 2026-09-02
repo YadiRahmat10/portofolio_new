@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="px-gutter py-xl max-w-container-max mx-auto" id="About">
+    <section className="min-h-screen scroll-mt-16 flex flex-col justify-center px-4 sm:px-8 md:px-gutter py-16 max-w-container-max mx-auto" id="About">
       <h2 className="font-display text-headline-lg md:text-display text-primary mb-md tracking-tighter border-b border-outline-variant pb-2 inline-block">
         01. About Me
       </h2>

@@ -57,11 +57,11 @@ export default function Experience() {
               <ul className="font-body-md text-body-md text-on-surface-variant space-y-2 list-none">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 text-xs">▹</span>
-                  <span>Managed centralized logging and SIEM integration for 50+ enterprise applications.</span>
+                  <span>Create new features and fix problematic features.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 text-xs">▹</span>
-                  <span>Reduced deployment times by 40% through container orchestration optimization.</span>
+                  <span>and deploy to server</span>
                 </li>
               </ul>
             </div>
@@ -83,11 +83,7 @@ export default function Experience() {
               <ul className="font-body-md text-body-md text-on-surface-variant space-y-2 list-none">
                 <li className="flex items-start gap-2">
                   <span className="text-outline mt-1 text-xs">▹</span>
-                  <span>Maintained 99.99% uptime for core physical server infrastructure.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-outline mt-1 text-xs">▹</span>
-                  <span>Executed secure data center migration with zero data loss.</span>
+                  <span>Create new features and fix problematic features.</span>
                 </li>
               </ul>
             </div>
