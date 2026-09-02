@@ -1,26 +1,134 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-inverse-surface: #dfe2eb;
+  --color-surface-container-low: #181c22;
+  --color-tertiary-fixed-dim: #ffba42;
+  --color-inverse-primary: #0060aa;
+  --color-surface-container-lowest: #0a0e14;
+  --color-surface-bright: #353940;
+  --color-primary: #a2c9ff;
+  --color-on-tertiary-fixed: #281800;
+  --color-primary-container: #58a6ff;
+  --color-error: #ffb4ab;
+  --color-on-tertiary-container: #4f3400;
+  --color-on-secondary-fixed: #002105;
+  --color-on-surface: #dfe2eb;
+  --color-on-secondary-fixed-variant: #005317;
+  --color-secondary: #67df70;
+  --color-background: #10141a;
+  --color-surface-dim: #10141a;
+  --color-on-tertiary-fixed-variant: #614000;
+  --color-surface-tint: #a2c9ff;
+  --color-on-primary-fixed: #001c38;
+  --color-tertiary-container: #da9600;
+  --color-tertiary-fixed: #ffddaf;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-surface-variant: #c0c7d4;
+  --color-inverse-on-surface: #2d3137;
+  --color-surface-container: #1c2026;
+  --color-on-background: #dfe2eb;
+  --color-on-primary-fixed-variant: #004882;
+  --color-tertiary: #ffba42;
+  --color-on-secondary: #00390d;
+  --color-on-primary-container: #003a6b;
+  --color-surface: #10141a;
+  --color-on-tertiary: #432c00;
+  --color-secondary-container: #27a640;
+  --color-surface-container-highest: #31353c;
+  --color-outline-variant: #414752;
+  --color-surface-variant: #31353c;
+  --color-secondary-fixed: #83fc89;
+  --color-primary-fixed-dim: #a2c9ff;
+  --color-on-primary: #00315c;
+  --color-secondary-fixed-dim: #67df70;
+  --color-on-secondary-container: #00320a;
+  --color-primary-fixed: #d3e4ff;
+  --color-surface-container-high: #262a31;
+  --color-outline: #8b919d;
+  --color-on-error-container: #ffdad6;
+
+  --font-headline-lg-mobile: var(--font-jetbrains-mono);
+  --font-headline-md: var(--font-jetbrains-mono);
+  --font-code-sm: var(--font-jetbrains-mono);
+  --font-body-md: var(--font-inter);
+  --font-label-mono: var(--font-jetbrains-mono);
+  --font-display: var(--font-jetbrains-mono);
+  --font-headline-lg: var(--font-jetbrains-mono);
+  --font-body-lg: var(--font-inter);
+
+  --spacing-container-max: 1200px;
+  --spacing-lg: 48px;
+  --spacing-base: 4px;
+  --spacing-sm: 16px;
+  --spacing-xl: 80px;
+  --spacing-md: 24px;
+  --spacing-gutter: 24px;
+  --spacing-xs: 8px;
+
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+
+  --text-headline-lg-mobile: 24px;
+  --text-headline-lg-mobile--line-height: 1.2;
+  --text-headline-lg-mobile--font-weight: 600;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 1.3;
+  --text-headline-md--font-weight: 500;
+
+  --text-code-sm: 14px;
+  --text-code-sm--line-height: 1.5;
+  --text-code-sm--font-weight: 400;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 1.6;
+  --text-body-md--font-weight: 400;
+
+  --text-label-mono: 12px;
+  --text-label-mono--line-height: 1.0;
+  --text-label-mono--letter-spacing: 0.1em;
+  --text-label-mono--font-weight: 500;
+
+  --text-display: 48px;
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.02em;
+  --text-display--font-weight: 700;
+
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 1.2;
+  --text-headline-lg--font-weight: 600;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 1.6;
+  --text-body-lg--font-weight: 400;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@utility terminal-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1em;
+  background-color: currentColor;
+  vertical-align: middle;
+  animation: blink 1s step-end infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@utility typing-container {
+  &::after {
+    content: '_';
+    animation: blink 1s step-start infinite;
   }
 }
 
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  color: var(--color-on-background);
 }
