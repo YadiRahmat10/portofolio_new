@@ -46,25 +46,25 @@ export default function Experience() {
         <div className="relative flex flex-col md:flex-row items-center mb-lg last:mb-0 group">
           <div className="absolute left-[-16px] md:left-1/2 md:-ml-[7px] top-4 w-3 h-3 rounded-full bg-outline ring-4 ring-background z-10 group-hover:scale-125 transition-transform"></div>
 
-          <div className="w-full md:w-1/2 md:pr-lg md:text-right order-1 md:order-2">
+          <div className="w-full md:w-1/2 md:pr-lg md:text-right">
+            <div className="font-label-mono text-label-mono text-primary mb-1">2024 Jan - 2025 Dec</div>
+            <h3 className="font-headline-md text-headline-md text-on-background">FullStack Developer</h3>
+            <div className="font-body-md text-body-md text-on-surface-variant mb-4 md:mb-0">PT Elima Firman Teknologi</div>
+          </div>
+
+          <div className="w-full md:w-1/2 md:pl-lg mt-4 md:mt-0">
             <div className="bg-surface-container-low/50 backdrop-blur-sm border border-outline-variant rounded-lg p-sm hover:border-outline transition-colors">
               <ul className="font-body-md text-body-md text-on-surface-variant space-y-2 list-none">
-                <li className="flex items-start gap-2 md:flex-row-reverse">
-                  <span className="text-primary mt-1 text-xs md:ml-2">▹</span>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 text-xs">▹</span>
                   <span>Managed centralized logging and SIEM integration for 50+ enterprise applications.</span>
                 </li>
-                <li className="flex items-start gap-2 md:flex-row-reverse">
-                  <span className="text-primary mt-1 text-xs md:ml-2">▹</span>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 text-xs">▹</span>
                   <span>Reduced deployment times by 40% through container orchestration optimization.</span>
                 </li>
               </ul>
             </div>
-          </div>
-
-          <div className="w-full md:w-1/2 md:pl-lg mt-4 md:mt-0 order-2 md:order-1 text-left">
-            <div className="font-label-mono text-label-mono text-primary mb-1">2024 Jan - 2025 Dec</div>
-            <h3 className="font-headline-md text-headline-md text-on-background">FullStack Developer</h3>
-            <div className="font-body-md text-body-md text-on-surface-variant">PT Elima Firman Teknologi</div>
           </div>
         </div>
 

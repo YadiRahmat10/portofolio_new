@@ -18,7 +18,6 @@ export default function TopNavBar() {
           <Link href="#Skills" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-highest/50 px-2 py-1 rounded">Skills</Link>
           <Link href="#Experience" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-highest/50 px-2 py-1 rounded">Experience</Link>
           <Link href="#Projects" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-highest/50 px-2 py-1 rounded">Projects</Link>
-          <Link href="#Contact" className="font-label-mono text-label-mono text-on-surface-variant hover:text-primary transition-colors hover:bg-surface-container-highest/50 px-2 py-1 rounded">Contact</Link>
         </nav>
         <button className="hidden md:inline-flex bg-primary-container text-background font-label-mono text-label-mono px-4 py-2 rounded font-bold hover:opacity-90 transition-opacity border border-primary-container flex items-center gap-2">
           Resume
@@ -40,10 +39,6 @@ export default function TopNavBar() {
           <Link href="#Skills" className="font-label-mono text-label-mono text-on-surface-variant">Skills</Link>
           <Link href="#Experience" className="font-label-mono text-label-mono text-on-surface-variant">Experience</Link>
           <Link href="#Projects" className="font-label-mono text-label-mono text-on-surface-variant">Projects</Link>
-          <Link href="#Contact" className="font-label-mono text-label-mono text-on-surface-variant">Contact</Link>
-          <button className="bg-primary-container text-background font-label-mono text-label-mono px-4 py-2 rounded font-bold self-start mt-2">
-            Resume
-          </button>
         </div>
       )}
     </header>
