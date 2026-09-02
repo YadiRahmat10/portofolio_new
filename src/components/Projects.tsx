@@ -23,7 +23,7 @@ export default function Projects() {
             <span className="bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm px-2 py-1 rounded border border-outline-variant">next.js</span>
             <span className="bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm px-2 py-1 rounded border border-outline-variant">Docker</span>
           </div>
-          <Link href="#" className="inline-flex items-center gap-2 font-label-mono text-label-mono text-on-background hover:text-primary transition-colors mt-auto w-fit">
+          <Link href="/" className="inline-flex items-center gap-2 font-label-mono text-label-mono text-on-background hover:text-primary transition-colors mt-auto w-fit">
             <span className="material-symbols-outlined text-sm" data-icon="code">code</span>
             View Source
           </Link>
@@ -40,7 +40,7 @@ export default function Projects() {
             <span className="bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm px-2 py-1 rounded border border-outline-variant">Kubernetes</span>
             <span className="bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm px-2 py-1 rounded border border-outline-variant">Go</span>
           </div>
-          <Link href="#" className="inline-flex items-center gap-2 font-label-mono text-label-mono text-on-background hover:text-primary transition-colors mt-auto w-fit">
+          <Link href="/" className="inline-flex items-center gap-2 font-label-mono text-label-mono text-on-background hover:text-primary transition-colors mt-auto w-fit">
             <span className="material-symbols-outlined text-sm" data-icon="terminal">terminal</span>
             View Configs
           </Link>
@@ -57,7 +57,7 @@ export default function Projects() {
             <span className="bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm px-2 py-1 rounded border border-outline-variant">TypeScript</span>
             <span className="bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm px-2 py-1 rounded border border-outline-variant">Tailwind</span>
           </div>
-          <Link href="#" className="inline-flex items-center gap-2 font-label-mono text-label-mono text-on-background hover:text-primary transition-colors mt-auto w-fit">
+          <Link href="/" className="inline-flex items-center gap-2 font-label-mono text-label-mono text-on-background hover:text-primary transition-colors mt-auto w-fit">
             <span className="material-symbols-outlined text-sm" data-icon="open_in_new">open_in_new</span>
             Live Demo
           </Link>

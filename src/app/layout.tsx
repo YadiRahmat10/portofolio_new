@@ -13,8 +13,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DEVSECOPS",
-  description: "Portfolio of Yadi - DevSecOps Engineer",
+  title: "DevSecOps",
+  description: "Portfolio of Yadi - DevSecOps",
 };
 
 export default function RootLayout({

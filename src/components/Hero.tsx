@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 
 export default function Hero() {
   const [line1, setLine1] = useState("");
@@ -81,11 +80,15 @@ export default function Hero() {
         </div>
 
         <div className="mt-6 md:mt-lg flex justify-center">
-          <Link href="#Projects">
-            <button className="bg-primary-container text-background font-label-mono text-label-mono px-6 sm:px-8 py-2.5 sm:py-3 rounded font-bold hover:bg-primary transition-colors border border-primary-container shadow-[0_4px_12px_rgba(88,166,255,0.2)] text-sm sm:text-base">
-              View Projects
-            </button>
-          </Link>
+          <button
+            onClick={() => {
+              document.getElementById("Projects")?.scrollIntoView({ behavior: "smooth" });
+              window.history.pushState({}, "", "/projects");
+            }}
+            className="bg-primary-container text-background font-label-mono text-label-mono px-6 sm:px-8 py-2.5 sm:py-3 rounded font-bold hover:bg-primary transition-colors border border-primary-container shadow-[0_4px_12px_rgba(88,166,255,0.2)] text-sm sm:text-base"
+          >
+            View Projects
+          </button>
         </div>
       </div>
     </section>
