@@ -5,9 +5,9 @@ export default function Skills() {
     <section className="bg-surface-container-lowest/40 backdrop-blur-md px-gutter py-xl border-y border-outline-variant" id="Skills">
       <div className="max-w-container-max mx-auto">
         <h2 className="font-display text-headline-lg md:text-display text-primary mb-lg tracking-tighter border-b border-outline-variant pb-2 inline-block">
-          02. Technical
+          Technical
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-md">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-md">
 
           {/* Security */}
           <div className="bg-surface/50 backdrop-blur-sm border border-outline-variant rounded p-md hover:border-primary/50 transition-colors">

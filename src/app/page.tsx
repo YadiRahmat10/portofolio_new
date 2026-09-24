@@ -12,18 +12,18 @@ export default function Home() {
     <>
       <ShaderBackground />
       <TopNavBar />
-      
+
       <main className="flex-grow pt-[72px]">
         <Hero />
-        <About />
+        {/* <About /> */}
         <Skills />
-        
+
         <div className="px-gutter md:px-lg max-w-container-max mx-auto space-y-xl">
           <Experience />
           <Projects />
         </div>
       </main>
-      
+
       <Footer />
     </>
   );

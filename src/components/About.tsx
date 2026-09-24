@@ -16,11 +16,11 @@ export default function About() {
         <div className="relative group">
           <div className="absolute inset-0 bg-primary-container/20 rounded transform translate-x-4 translate-y-4 border border-primary-container/30 transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></div>
           {/* Using standard img here because external URL is used and it would require next.config.js image domain setup to use next/image */}
-          <img
+          {/* <img
             src="/img/foto.jpg"
             alt="A moody, high-contrast portrait of a developer workspace."
             className="relative z-10 w-full h-auto rounded border border-outline-variant grayscale hover:grayscale-0 transition-all duration-500 object-cover aspect-square md:aspect-auto"
-          />
+          /> */}
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <section className="scroll-mt-32 border-t border-outline-variant pt-xl mt-xl" id="Experience">
+    <section className="scroll-mt-32 border-outline-variant pt-xl mt-xl" id="Experience">
       <div className="mb-lg">
         <h2 className="font-headline-lg text-headline-lg text-on-background mb-xs">
           <span className="text-primary">&gt;_</span> EXPERIENCE

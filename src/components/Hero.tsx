@@ -55,12 +55,12 @@ export default function Hero() {
   return (
     <section className="relative min-h-[calc(100vh-72px)] flex flex-col justify-center items-center px-4 sm:px-6 md:px-gutter" id="Hero">
       <div className="relative z-10 w-full max-w-[600px] md:max-w-2xl lg:max-w-3xl mx-auto">
-        <div className="bg-surface/60 backdrop-blur-md border border-outline-variant rounded shadow-[0_8px_24px_rgba(0,0,0,0.5)] overflow-hidden">
-          <div className="bg-surface-container-highest/60 border-b border-outline-variant px-3 sm:px-4 py-2 flex items-center space-x-2">
+        <div className="bg-white/5 backdrop-blur-2xl border border-white/10 rounded-2xl shadow-[0_8px_32px_0_rgba(0,0,0,0.4)] overflow-hidden">
+          <div className="bg-white/5 border-b border-white/10 px-3 sm:px-4 py-3 flex items-center space-x-2">
             <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-error"></div>
             <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-tertiary"></div>
             <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-secondary"></div>
-            <span className="font-label-mono text-label-mono text-on-surface-variant ml-3 sm:ml-4 text-xs sm:text-sm">// terminal</span>
+            {/* <span className="font-label-mono text-label-mono text-on-surface-variant ml-3 sm:ml-4 text-xs sm:text-sm">terminal</span> */}
           </div>
           <div className="p-4 sm:p-6 md:p-lg font-code-sm text-code-sm text-on-background min-h-[120px]">
             <div className="mb-4">
@@ -69,12 +69,11 @@ export default function Hero() {
             </div>
 
             <div className={`mb-4 text-on-surface-variant ${showOutput1 ? "opacity-100" : "opacity-0"} transition-opacity duration-300`}>
-              yadi
+              yadi rahmat
             </div>
 
             <div className={`${showLine2 ? "opacity-100" : "opacity-0"} transition-opacity duration-300`}>
-              <span className="text-secondary">$</span>{" "}
-              <span className={showLine2 && line2.length < text2.length ? "typing-container" : ""}>{line2}</span>
+              Fullstack Developer with over 3 years of experience engineering scalable web applications using JavaScript, Vue.js, Angular, and PHP Laravel. Combines strong development capabilities with 1 year of dedicated cybersecurity expertise, delivering resilient, high-performance, and secure-by-design software solutions.
             </div>
           </div>
         </div>
@@ -85,9 +84,9 @@ export default function Hero() {
               document.getElementById("Projects")?.scrollIntoView({ behavior: "smooth" });
               window.history.pushState({}, "", "/projects");
             }}
-            className="bg-primary-container text-background font-label-mono text-label-mono px-6 sm:px-8 py-2.5 sm:py-3 rounded font-bold hover:bg-primary transition-colors border border-primary-container shadow-[0_4px_12px_rgba(88,166,255,0.2)] text-sm sm:text-base"
+            className="px-6 sm:px-8 py-2.5 sm:py-3 rounded-xl font-label-mono text-label-mono font-bold text-primary sm:text-base text-sm transition-all duration-300 ease-in-out bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.3)] hover:bg-white/10 hover:border-white/20 hover:shadow-[0_8px_32px_0_rgba(0,0,0,0.4)] hover:scale-105"
           >
-            View Projects
+            Projects
           </button>
         </div>
       </div>
