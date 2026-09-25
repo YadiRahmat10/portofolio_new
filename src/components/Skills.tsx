@@ -29,8 +29,8 @@ export default function Skills() {
             </div>
             <ul className="space-y-2 font-code-sm text-code-sm text-on-surface-variant">
               <li className="flex items-center"><span className="text-primary-container mr-2">▹</span> React / Next.js</li>
-              <li className="flex items-center"><span className="text-primary-container mr-2">▹</span> Vue.js </li>
-              <li className="flex items-center"><span className="text-primary-container mr-2">▹</span> Angular.js</li>
+              <li className="flex items-center"><span className="text-primary-container mr-2">▹</span> Vue </li>
+              <li className="flex items-center"><span className="text-primary-container mr-2">▹</span> Angular</li>
               <li className="flex items-center"><span className="text-primary-container mr-2">▹</span> JavaScript / TypeScript</li>
             </ul>
           </div>
@@ -42,8 +42,8 @@ export default function Skills() {
             </div>
             <ul className="space-y-2 font-code-sm text-code-sm text-on-surface-variant">
               <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Go</li>
-              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Node.js</li>
-              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Express.js</li>
+              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Node</li>
+              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Express</li>
               <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> MySQL</li>
             </ul>
           </div>
