@@ -43,8 +43,8 @@ export default function Skills() {
             <ul className="space-y-2 font-code-sm text-code-sm text-on-surface-variant">
               <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Go</li>
               <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Node.js</li>
-              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> PostgreSQL</li>
-              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Redis</li>
+              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Express.js</li>
+              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> MySQL</li>
             </ul>
           </div>
 
