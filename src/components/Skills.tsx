@@ -43,7 +43,7 @@ export default function Skills() {
             <ul className="space-y-2 font-code-sm text-code-sm text-on-surface-variant">
               <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Go</li>
               <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Node</li>
-              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> Express</li>
+              <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> PHP</li>
               <li className="flex items-center"><span className="text-tertiary mr-2">▹</span> MySQL</li>
             </ul>
           </div>
